@@ -5,9 +5,63 @@
   <meta charset="utf-8">
   <title>Analizador de texto</title>
   <link rel="stylesheet" href="style.css" />
+  
+
+<!-- Fuentes -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lobster+Two:wght@700&family=Roboto:ital,wght@0,100;0,300;0,700;1,100&display=swap" rel="stylesheet">
+
+  
 </head>
 
 <body>
-  <script src="index.js" type="module"></script>
+<!--SCRIPT: NO MOVER MÁS!!! -->
+<script src="index.js" type="module"></script>
+
+<header type="titulo">
+  <h1>Analizador de texto</h1>
+</header>
+
+<!-- INPUT DE LA USUARIA -->
+<!--div class="container"-->
+<textarea name="user-input" cols="40" rows="10" placeholder="Inserta tu texto" keyup="">
+</textarea>
+<!--/div-->
+
+<!-- Botón refresh -->
+<!--div class="container2"-->
+  <button id="reset-button" onclick="addEventListener">Borrar métricas</button>
+<!--/div-->
+
+<!--funcionalidades -->
+
+<!--div class="container2"--> 
+<ul>
+<li class="li-style" data-testid="word-count" onclick="addEventListener"> Recuento de palabras: 0 </li>
+
+<li class="li-style" data-testid="character-count" onclick="addEventListener"> Recuento de caracteres: 0</li>
+
+<li class= "li-style" data-testid="character-no-spaces-count" onclick="addEventListener"> Recuento de caracteres sin espacios ni signos: 0</li>
+
+<li class="li-style" data-testid="word-leght-average" onclick="addEventListener"> Longitud media de las palabras: 0</li>
+
+<li class="li-style" data-testid="number-count" onclick="addEventListener"> Recuento de números: 0</li>
+
+<li class="li-style" data-testid="number-sum" onclick="addEventListener"> Suma de números :0 </li>
+</ul>
+<!--/div-->
+
+
+<!-- Footer-->
+<div class="container3">
+<footer type="pie"> <p> Irma Solano B. </p></footer>
+</div>
+
+
+
+
+
+
 </body>
 </html>

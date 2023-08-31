@@ -1,0 +1,78 @@
+/*import fonts*/
+
+  @import url('https://fonts.googleapis.com/css2?family=Lobster+Two:wght@700&family=Roboto:ital,wght@0,100;0,300;0,700;1,100&display=swap');
+
+
+
+/*----estilos página-----*/
+*{
+    background: #c4c3fe;
+    font-family: 'Roboto';
+    text-align: left;
+    align-items: left;
+}
+
+header{
+    padding: 20px;
+}
+h1{
+    text-align: left;
+    font-family: 'Roboto', bold;
+
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 20vh;
+}
+textarea{
+    box-align: center;
+    background-color: ghostwhite;
+    margin: 10px;
+    box-sizing: border-box;
+    border-radius: 6px;
+    padding: 0.5em 1.2em;
+    display: grid;
+    place-content: left;
+    font-family: 'Roboto', thin 100 italic;
+}
+
+.container2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 10vh;
+}
+button{
+    display: grid;
+    color: black;
+    padding: 12px 28px;
+    border-radius: 8px;
+    border: 1px solid #c4c3fe;
+    font-family: 'Roboto', sans-serif;
+    transition: background-color 0.90 ease;
+    transition-duration: 0.4s;
+    background-color: #90f24e;
+    
+}
+
+button:hover{
+    background-color: #489b11;
+    color: #ffffff;
+}
+/*Estilos para elementos de lista*/li{
+
+    font-family: 'Roboto', light 300;
+
+}
+
+footer{
+    padding-top: 40px;
+    font-family: 'Roboto', bold;
+    text-align: center;
+
+
+}
+
