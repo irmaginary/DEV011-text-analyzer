@@ -31,7 +31,7 @@ textarea {
   display: flex;
   justify-content: left;
   align-items: left;
-  min-height: 20vh;
+  min-height: 10vh;
   background-color: ghostwhite;
   margin: 30px;
   box-sizing: border-box;
@@ -44,16 +44,15 @@ textarea {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 10vh;
+  min-height: 8%;
 }
 
-button {
+#reset-button {
   display: flexbox;
   align-items: center;
-
   color: black;
   padding: 20px 28px;
-  border-radius: 8px;
+  border-radius: 10px;
   border: 1px solid #c4c3fe;
   font-family: "Roboto", sans-serif;
   transition: background-color 0.9 ease;
@@ -61,7 +60,7 @@ button {
   background-color: #90f24e;
 }
 
-button:hover {
+#reset-button:hover {
   background-color: #489b11;
   color: #ffffff;
 }
@@ -72,25 +71,28 @@ ul {
   list-style-type: none;
   font-family: "Roboto", light 300;
   border: 2px #2b2b3f;
-  border-radius: 8px;
+  border-radius: 20px;
 }
 
-/*#li-style {
+.li-style {
   display: flexbox;
-  align-items: left;
-  color: black;
-  padding: 20px 28px;
-  border-radius: 8px;
+  align-items: center;
+  color: rgb(248, 243, 243);
+  padding: 10px 10px;
+  border-radius: 20px;
   border: 8px solid #c4c3fe;
+  width: 220px;
+  height: 30px;
   font-family: "Roboto", sans-serif;
+  font-size: 10pt;
   transition: background-color 0.9 ease;
   transition-duration: 0.4s;
-  background-color: #90f24e;
+  background-color: #3c39f3;
 }
 
-#li-style:hover {
-  background-color: #489b11;
-}*/
+.li-style:hover {
+  background-color: #7d60f0;
+}
 
 .container3 {
   text-align: center;

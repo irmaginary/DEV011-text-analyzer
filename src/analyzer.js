@@ -18,23 +18,11 @@ const analyzer = {
 
   getCharacterCountExcludingSpaces: (text) => {
     //TODO: esta función debe retornar el recuento de caracteres excluyendo espacios y signos de puntuación que se encuentran en el parámetro `text` de tipo `string`.
-    //let wordsinespacios= text.filter ()
-
-    //PRUEBA 1: introducir charCode como función
-    //let signos= [];
-    //for (let i=0; i < text.length; i++) {
-    //const charCode= text.charCodeAt(i);
-    //if ((charCode >= 33 && charCode <= 47) || (charCode >= 58 && charCode <= 64)) {
-    //signos.push(text[i]);
-    //}
-    //}
-    //console.log(signos.length);
-
+    //PRUEBA CON EXPRESIÓN REGULAR
+    
     //PRUEBA 2: Meter charCode en la función
     const wordsinespacios = [];
     for (let i = 0; i < text.length; i++) {
-      //const charCode= text.charCodeAt(i);
-      //if (text[i] !== ((charCode >= 33 && charCode <= 47) || (charCode >= 58 && charCode <= 64))) {
       if (
         text[i] !== " " &&
         text[i] !== "," &&
@@ -44,7 +32,6 @@ const analyzer = {
         wordsinespacios.push(text[i]);
       }
     }
-    //console.log(wordsinespacios.length);
     return wordsinespacios.length - 1;
   },
 
